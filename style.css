@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+header {
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  border-top: 20px solid #00000000;
+  border-bottom: 20px solid #00000000;
+  background-color: #a21d1f;
+}
+
+header nav ul li {
+  margin: 0 25px;
+}
+
+header nav ul li a {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+header nav ul li a:hover{
+  text-decoration: underline solid #ffffff 2px;
+}
+
+header p {
+  font-family: 'Dela Gothic One',sans-serif;
+  font-size: 5vw;
+  color: #a21d1f;
+  background-color: #efefef;
+  width: 100%;
+
+}
+
+.header-content {
+  display: flex;
+  max-width: 2560px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-content > img {
+  width: 60%;
+}
+
+.header-content > div {
+  width: 40%;
+}
+
+header div {
+  background-color: #efefef;
+  text-align: center;
+  align-items: center;
+}
+
+header div div img {
+  border-radius: 50%;
+  width: 15vw;
+}
+
+aside {
+  width: 30%;
+  background-color: #c0c0c0;
+  padding: 1px 20px 15px;
+  margin: 50px auto;
+}
+
+aside nav ul li {
+  list-style-type: square;
+  margin: 0 0 16px 20px;
+}
+
+aside h3 {
+  margin: 20px 0;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+main h2 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#b h3 {
+  font-family: "DotGothic16", sans-serif;
+  font-size: 5vw;
+  text-align: center;
+}
+
+#b img {
+  display: block;
+  margin: 0 auto;
+}
+
+#b p {
+  font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-size: 4vw;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.map {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.map iframe {
+  display: block;
+  margin: 50px auto 10px;
+}
+
+footer {
+  background-color: #a21d1f;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 10px 20px;
+}
